@@ -41,7 +41,7 @@ public class WrestlerTest {
     }
 
     public void setRankingTest() {
-        wrestling.setRanking(2);
+        wrestler.setRanking(2);
         assertEquals(2, wrestler.getRanking());
     }
 

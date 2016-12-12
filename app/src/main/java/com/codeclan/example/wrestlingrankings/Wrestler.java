@@ -13,4 +13,28 @@ public class Wrestler {
         this.finisher = finisher;
         this.ranking = ranking;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getFinisher() {
+        return finisher;
+    }
+
+    public void setFinisher(String finisher) {
+        this.finisher = finisher;
+    }
+
+    public int getRanking() {
+        return ranking;
+    }
+
+    public void setRanking(int ranking) {
+        this.ranking = ranking;
+    }
 }
