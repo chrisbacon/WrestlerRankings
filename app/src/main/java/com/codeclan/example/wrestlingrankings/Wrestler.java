@@ -37,4 +37,9 @@ public class Wrestler {
     public void setRanking(int ranking) {
         this.ranking = ranking;
     }
+
+    @Override
+    public String toString() {
+        return "Name: " + this.name + ", Finisher: " + this.finisher + ", Ranking: " + this.ranking;
+    }
 }

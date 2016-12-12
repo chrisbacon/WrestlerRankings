@@ -40,9 +40,15 @@ public class WrestlerTest {
         assertEquals(1, wrestler.getRanking());
     }
 
+    @Test
     public void setRankingTest() {
         wrestler.setRanking(2);
         assertEquals(2, wrestler.getRanking());
+    }
+
+    @Test
+    public void toStringTest() {
+        assertEquals("Name: Stone Cold Steve Austin, Finisher: Stone Cold Stunner, Ranking: 1", wrestler.toString());
     }
 
 }
