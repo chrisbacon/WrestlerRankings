@@ -31,6 +31,16 @@ public class Rankings {
         this.rankings.set(index, wrestler);
     }
 
+    public Wrestler getWrestlerByName(String name) {
+        Wrestler target = null;
+        for (Wrestler wrestler : this.rankings) {
+            if (wrestler.getName().equals(name)) {
+                target = wrestler;
+            }
+        }
+        return target;
+    }
+
 
 
 }

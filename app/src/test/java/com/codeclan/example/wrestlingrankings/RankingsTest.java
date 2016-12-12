@@ -35,4 +35,10 @@ public class RankingsTest {
         Wrestler wrestler = rankings.getWrestlerAtRank(3);
         assertEquals("HHH", wrestler.getName());
     }
+
+    @Test
+    public void getWrestlerByNameTest() {
+        Wrestler wrestler = rankings.getWrestlerByName("Stone Cold Steve Austin");
+        assertEquals("Stone Cold Steve Austin", wrestler.getName());
+    }
 }
